@@ -10,6 +10,7 @@ public class Ball extends Shape {
 
 	public Ball(int x, int y, int radius, Image image) {
 		super(x, y, radius * 2, radius * 2, image, DXBALL, DYBALL);
+		System.out.println("Ball");
 		this.radius = radius;
 		setToBall();
 
